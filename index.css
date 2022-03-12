@@ -34,9 +34,11 @@ body{
 
 .play-content{
 	display: flex;
-	justify-content: flex-start;
+	flex-direction: column;
+	justify-content: center;
 	align-items: center;
 	text-align: center;
+
 }
 
 .img img{
@@ -71,7 +73,7 @@ a{
 
 h2{
 	margin-top: 1rem;
-	color: #d3389f;
+	color: #277019;
 }
 
 @media screen and (max-width: 1050px){
@@ -108,5 +110,9 @@ h2{
 
 	.play-content{
 		justify-content: center;
+	}
+
+	h2{
+		display: none;
 	}
 }
